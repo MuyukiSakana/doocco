@@ -1,0 +1,6 @@
+#
+# robots.txt for Doocco
+#
+
+User-agent: *
+Disallow: /static/
