@@ -6,7 +6,7 @@ layui.use('layer', function() {
             type: 0,
             skin: 'layui-layer-lan',
             title: '影视宣传请联系',
-            content: '<p>影视部：杜XX</p><p>手机/微信：XXX-XXXX-XXXX</p>',
+            content: '<p>影视部：杜胜友</p><p><img src="static/img/weixind.jpg"></p><p style="text-align: center;">微信号：</p>',
             btn: ['好的'],
             closeBtn: 0,
             btnAlign: 'c',
@@ -21,7 +21,7 @@ layui.use('layer', function() {
             type: 0,
             skin: 'layui-layer-lan',
             title: '广告策划请联系',
-            content: '<p>广告部：李XX</p><p>手机/微信：XXX-XXXX-XXXX</p>',
+            content: '<p>广告部：李朝辉</p><p><img src="static/img/weixinl.jpg"></p><p style="text-align: center;">微信号：</p>',
             btn: ['好的'],
             closeBtn: 0,
             btnAlign: 'c',
@@ -32,6 +32,24 @@ layui.use('layer', function() {
         })
     });
     $(document).on("click","#weixin",function() {
+        layer.open({
+            type: 0,
+            skin: 'layui-layer-lan',
+            title: '来微信关注我们',
+            closeBtn: 0,
+            area: '300px;',
+            shade: [0.6, '#5FB878'],
+            id: 'weixin-ui',
+            resize: false,
+            btn: ['好的'],
+            btnAlign: 'c',
+            time: 20000,
+            anim: 0,
+            moveType: 1,
+            content: '<p style="text-align: center;">渡口工作室</p><p><img src="static/img/weixin.jpg"></p><p style="text-align: center;">微信号：dukougzs</p>'
+        });
+    });
+    $(document).on("click", "#layui-layer-shade3", function () {
         layer.open({
             type: 0,
             skin: 'layui-layer-lan',
