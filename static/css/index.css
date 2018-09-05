@@ -1,8 +1,8 @@
 @charset "utf-8";*{margin:0;padding:0}
 #bgaud{display:none}
-#bgvid{min-width:100%;min-height:100%;background:url(../img/background.jpg) no-repeat;background-size:cover;position:absolute;right:0;bottom:0;z-index:-1;-webkit-filter:grayscale(10%);filter:grayscale(10%)}
+#bgvid{min-width:100%;min-height:100%;background:url(https://doocco-1251406881.cos.ap-guangzhou.myqcloud.com/res/bg.jpg) no-repeat;background-size:cover;position:absolute;right:0;bottom:0;z-index:-1;-webkit-filter:grayscale(10%);filter:grayscale(10%)}
 video{display:block}
-.logo{width:300px;height:120px;margin:0 auto;margin-top:20px;background:url(../img/logo.png) no-repeat center}
+.logo{width:300px;height:120px;margin:0 auto;margin-top:20px;background:url(https://doocco-1251406881.cos.ap-guangzhou.myqcloud.com/res/logos.png) no-repeat center;background-size:contain}
 .no-select{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 .title{width:500px;height:40px;color:#000;font-size:24px;line-height:40px;text-align:center;margin:0 auto;margin-top:15px;background:rgba(194,194,194,.5)}
 .box{width:990px;height:60px;margin:0 auto;margin-top:150px;overflow:hidden}
